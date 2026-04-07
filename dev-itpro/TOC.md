@@ -1519,7 +1519,7 @@
 ### [Prediction API overview](developer/ml-prediction-api-overview.md)
 ### [Transparency note: Machine Learning APIs](developer/ml-transparency-note.md)
 ## [Create agents with Copilot Studio](ai/create-agent-in-copilot-studio.md?toc=/dynamics365/business-central/dev-itpro/toc.json)
-## Integrate with Model Context Protocol (preview)
+## Integrate with Model Context Protocol
 ### [MCP in Business Central overview](ai/mcp-overview.md)
 ### [Configure Business Central MCP Server](ai/configure-mcp-server.md)
 ### [Connect to MCP server with Copilot Studio](ai/create-agent-in-copilot-studio.md#create-agents-that-connect-to-business-central-mcp-server)
