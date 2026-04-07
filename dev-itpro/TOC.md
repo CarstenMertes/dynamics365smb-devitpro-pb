@@ -726,7 +726,7 @@
 #### [Triggers](developer/triggers-auto/devenv-triggers.md)
 
 #### [Namespaces in AL](developer/devenv-namespaces-overview.md)
-##### [Structuring namespaces in AL](developer/devenv-namespaces-structure.md)
+##### [Adopting namespaces in AL](developer/devenv-namespaces-structure.md)
 
 ### Error handling
 #### [Failure modelling and robust coding practices](developer/devenv-robust-coding-practices.md) 
