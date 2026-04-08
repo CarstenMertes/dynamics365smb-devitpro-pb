@@ -4,13 +4,11 @@ description: Gets a purchase order object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.topic: reference
 ms.devlang: al
-ms.date: 05/31/2024
+ms.date: 04/08/2026
 ms.author: solsen
 ms.reviewer: solsen
 ---
 
-<!-- NOTE: This article is an auto-generated stub from the metadata file. -->
-<!-- The sections marked with an EDIT_IS_REQUIRED require manual editing. -->
 # Get purchaseOrders
 
 [!INCLUDE[api_v2_note](../../../includes/api_v2_note.md)]
@@ -60,11 +58,11 @@ Here's an example of the response.
    "orderDate": "2021-01-01",
    "postingDate": "2021-01-01",
    "dueDate": "2021-01-01",
-   "vendorId" : "",
+   "vendorId": "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
    "vendorNumber": "20000",
    "vendorName": "First Up Consultants",
    "payToName": "First Up Consultants",
-   "payToVendorId": "Evan McIntosh",
+   "payToVendorId": "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
    "payToVendorNumber": "20000",
    "shipToName": "First Up Consultants",
    "shipToContact": "Evan McIntosh",

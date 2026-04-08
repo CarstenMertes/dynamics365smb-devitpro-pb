@@ -4,9 +4,7 @@ description: Updates a  purchase credit memo line object in Dynamics 365 Busines
 author: SusanneWindfeldPedersen
 ms.topic: reference
 ms.devlang: al
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.date: 05/31/2024
+ms.date: 04/08/2026
 ms.author: solsen
 ms.reviewer: solsen
 ---

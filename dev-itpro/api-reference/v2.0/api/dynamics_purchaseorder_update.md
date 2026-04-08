@@ -1,16 +1,14 @@
 ---
 title: Update purchaseOrders  
-description: Updates a  purchase order object in Dynamics 365 Business Central.
+description: Updates a purchase order object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.topic: reference
 ms.devlang: al
-ms.date: 05/31/2024
+ms.date: 04/08/2026
 ms.author: solsen
 ms.reviewer: solsen
 ---
 
-<!-- NOTE: This article is an auto-generated stub from the metadata file. -->
-<!-- The sections marked with an EDIT_IS_REQUIRED require manual editing. -->
 # Update purchaseOrders
 
 [!INCLUDE[api_v2_note](../../../includes/api_v2_note.md)]

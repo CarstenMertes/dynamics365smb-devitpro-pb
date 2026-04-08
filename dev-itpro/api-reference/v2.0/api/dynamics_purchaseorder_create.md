@@ -4,13 +4,11 @@ description: Creates a purchase order object in Dynamics 365 Business Central.
 author: SusanneWindfeldPedersen
 ms.topic: reference
 ms.devlang: al
-ms.date: 05/31/2024
+ms.date: 04/08/2026
 ms.author: solsen
 ms.reviewer: solsen
 ---
 
-<!-- NOTE: This article is an auto-generated stub from the metadata file. -->
-<!-- The sections marked with an EDIT_IS_REQUIRED require manual editing. -->
 # Create purchaseOrders
 
 [!INCLUDE[api_v2_note](../../../includes/api_v2_note.md)]
@@ -22,7 +20,7 @@ Creates a purchase order in [!INCLUDE[prod_short](../../../includes/prod_short.m
 Replace the URL prefix for [!INCLUDE[prod_short](../../../includes/prod_short.md)] depending on environment following the [guideline](../../v2.0/endpoints-apis-for-dynamics.md).
 
 ```
-POST businesscentralPrefix/companies({id})/purchaseOrders({id})
+POST businesscentralPrefix/companies({id})/purchaseOrders
 ```
 
 ## Request headers

@@ -4,13 +4,11 @@ description: Updates a  purchase order line object in Dynamics 365 Business Cent
 author: SusanneWindfeldPedersen
 ms.topic: reference
 ms.devlang: al
-ms.date: 05/31/2024
+ms.date: 04/08/2026
 ms.author: solsen
 ms.reviewer: solsen
 ---
 
-<!-- NOTE: This article is an auto-generated stub from the metadata file. -->
-<!-- The sections marked with an EDIT_IS_REQUIRED require manual editing. -->
 # Update purchaseOrderLine
 
 [!INCLUDE[api_v2_note](../../../includes/api_v2_note.md)]
