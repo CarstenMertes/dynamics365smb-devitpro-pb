@@ -1221,19 +1221,19 @@
 #### [AW0017](analyzers/uicop-aw0017.md)
 <!-- [//]: # (IMPORTANT: END>DO_NOT_EDIT_ANALYZERS) -->
 
-## AI Agent Tools
-### [AI Agent Tools for AL Development](al-agent-tools/al-agent-tools-overview.md)
-### [AL Language Model Tools for Visual Studio Code](al-agent-tools/al-language-model-tools-vscode.md)
-### [AL MCP Server](al-agent-tools/al-mcp-server.md)
-### [Authentication - al_auth_login and al_auth_logout](al-agent-tools/al-tool-auth.md)
-### [Build AL project - al_build](al-agent-tools/al-tool-build.md)
-### [Compile AL project - al_compile](al-agent-tools/al-tool-compile.md)
-### [Debugging - al_debug, al_setbreakpoint, al_snapshotdebugging](al-agent-tools/al-tool-debug.md)
-### [Download AL symbols - al_downloadsymbols](al-agent-tools/al-tool-download-symbols.md)
-### [Get AL diagnostics - al_getdiagnostics](al-agent-tools/al-tool-get-diagnostics.md)
-### [Get package dependencies - al_getpackagedependencies](al-agent-tools/al-tool-get-package-dependencies.md)
-### [Publish AL extension - al_publish](al-agent-tools/al-tool-publish.md)
-### [Search AL symbols - al_symbolsearch](al-agent-tools/al-tool-symbol-search.md)
+## AI Agent tools
+### [AI Agent tools for AL development](al-agent-tools/al-agent-tools-overview.md)
+### [AL Language Model tools for Visual Studio Code](al-agent-tools/al-language-model-tools-vscode.md)
+### [AL MCP server](al-agent-tools/al-mcp-server.md)
+### [Authentication](al-agent-tools/al-tool-auth.md)
+### [Build AL project](al-agent-tools/al-tool-build.md)
+### [Compile AL project](al-agent-tools/al-tool-compile.md)
+### [Debugging](al-agent-tools/al-tool-debug.md)
+### [Download AL symbols](al-agent-tools/al-tool-download-symbols.md)
+### [Get AL diagnostics](al-agent-tools/al-tool-get-diagnostics.md)
+### [Get package dependencies](al-agent-tools/al-tool-get-package-dependencies.md)
+### [Publish AL extension](al-agent-tools/al-tool-publish.md)
+### [Search AL symbols](al-agent-tools/al-tool-symbol-search.md)
 
 ## Data Types and Methods
 ### [Methods Overview](methods-auto/library.md)
