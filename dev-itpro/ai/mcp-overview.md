@@ -74,3 +74,4 @@ The Business Central MCP server acts as a bridge between MCP clients and your Bu
 
 - [Model Context Protocol specification](https://modelcontextprotocol.io)
 - [Business Central APIs](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+- [Troubleshooting MCP Server for AL](../developer/devenv-debug-mcp-server.md)
