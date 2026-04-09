@@ -348,4 +348,5 @@ Check database statistics:
 [Setting conditional breakpoints](devenv-debugging-conditional-breakpoints.md)  
 [Snapshot debugging](devenv-snapshot-debugging.md)  
 [Attach and debug next](devenv-attach-debug-next.md)  
-[Debug upgrade and install code](devenv-debug-upgrade-install-code.md)
+[Debug upgrade and install code](devenv-debug-upgrade-install-code.md)  
+[Business Central MCP Server overview](../ai/mcp-overview.md)
