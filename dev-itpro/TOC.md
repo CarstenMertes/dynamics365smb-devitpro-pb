@@ -1512,7 +1512,7 @@
 ##### [Test Copilot capability in AL](developer/ai-test-copilot.md)
 ##### [Datasets](developer/ai-test-copilot-datasets.md)
 ##### [Write AI tests](developer/ai-test-copilot-ai-tests.md)
-##### [AI test tool](developer/ai-test-copilot-testtool.md)
+##### [Evaluation](developer/ai-test-copilot-testtool.md)
 ##### [Best practices](developer/ai-test-copilot-bestpractices.md)
 ## Develop AI with machine learning APIs
 ### [Forecasting API overview](developer/ml-forecasting-api-overview.md)
