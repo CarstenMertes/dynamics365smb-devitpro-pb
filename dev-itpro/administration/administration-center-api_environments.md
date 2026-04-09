@@ -588,14 +588,14 @@ Schedules a restore operation an existing environment from a time in the past.
 
 ```HTTP
 Content-Type: application/json
-POST /admin/{apiVersion}/applications/{applicationFamily}/environments/{environmentName}/restore
+POST /admin/{apiVersion}/applications/{applicationType}/environments/{environmentName}/restore
 ```
 
 ### Routing parameters
 
 `apiVersion` - the version of the Admin Center API. Currently, the latest version is [!INCLUDE[admincenterapiversion](../developer/includes/admincenterapiversion.md)]
 
-`applicationFamily` - the family of the environment's application (for example, "BusinessCentral").
+`applicationType` - the family of the environment's application (for example, "BusinessCentral").
 
 `environmentName` - the name of the environment to restore.
 
