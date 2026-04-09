@@ -43,8 +43,6 @@ This section goes over how to use Evaluation to set up a test suite, execute it,
 
 Once the dataset is uploaded, you can open and view the dataset in [!INCLUDE [prod_short](includes/prod_short.md)]. From here, you can also view the test input of each line by clicking the test input. You can also set the dataset to **Sensitive** by toggling the **Sensitive** toggle, which hides the test input and output by default, both in the dataset view and results view.
 
-![Image of dataset in BC](media/dataset.png "Dataset")
-
 ### Step 2 - set up the test suite
 
 1. Open the *AI Eval Suites* page.
@@ -55,15 +53,11 @@ Once the dataset is uploaded, you can open and view the dataset in [!INCLUDE [pr
 
 Specify a unique code for the test suite and description. On the header level, select the input dataset that was previously uploaded. On the test line, add the test codeunits previously created. Optionally, specify a line-specific input dataset for each line that requires a different input dataset than the header-level input dataset.
 
-![Image of configured test suite in BC](media/test-suite.png "Test Suite")
-
 ### Configure suite metadata
 
 As a step toward making AI quality easier to manage at scale, evaluation suites support suite-level configuration parameters. You can configure values such as capability, test type, and execution frequency. These settings apply to all tests in the suite and help keep large evaluation scenarios consistent and structured.
 
 These metadata values are also exported in the suite XML and can be consumed by automation, such as CI/CD pipelines.
-
-![Example of configuring capabilities and run frequency](media/configuration_s.png "Example of configuring capabilities and run frequency")
 
 ```xml
 <Root>
@@ -79,11 +73,7 @@ Business Central solutions are global, and AI experiences must work across langu
 
 In the evaluation setup, you can choose the language used for a specific run.
 
-![Example of setting language for the test run](media/evaluationlanguages_s.png "Example of setting language for the test run")
-
 You can also view and configure dataset content with language variants.
-
-![Example of creating dataset with tests in different languages](media/datasetlanguages_s.png "Example of creating dataset with tests in different languages")
 
 Exported suite XML includes language tags that automation can use:
 
@@ -171,8 +161,6 @@ codeunit 50201 "Marketing Text Simple Install"
 AI features consume Copilot credits. Evaluation provides visibility into credit consumption per run, per test line, and per dataset entry.
 
 Use this insight to understand consumption patterns, optimize prompts, and manage costs more effectively.
-
-![Example of tracking Copilot credit consumption for AI feature tests](media/copilotcredits_s.png "Example of tracking Copilot credit consumption for AI feature tests")
 
 
 > [!TIP]
