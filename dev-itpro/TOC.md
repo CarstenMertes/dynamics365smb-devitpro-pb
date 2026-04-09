@@ -726,7 +726,7 @@
 #### [Triggers](developer/triggers-auto/devenv-triggers.md)
 
 #### [Namespaces in AL](developer/devenv-namespaces-overview.md)
-##### [Structuring namespaces in AL](developer/devenv-namespaces-structure.md)
+##### [Adopting namespaces in AL](developer/devenv-namespaces-structure.md)
 
 ### Error handling
 #### [Failure modelling and robust coding practices](developer/devenv-robust-coding-practices.md) 
@@ -1512,7 +1512,7 @@
 ##### [Test Copilot capability in AL](developer/ai-test-copilot.md)
 ##### [Datasets](developer/ai-test-copilot-datasets.md)
 ##### [Write AI tests](developer/ai-test-copilot-ai-tests.md)
-##### [AI test tool](developer/ai-test-copilot-testtool.md)
+##### [Evaluation](developer/ai-test-copilot-testtool.md)
 ##### [Best practices](developer/ai-test-copilot-bestpractices.md)
 ## Develop AI with machine learning APIs
 ### [Forecasting API overview](developer/ml-forecasting-api-overview.md)
@@ -1522,6 +1522,7 @@
 ## Integrate with Model Context Protocol
 ### [MCP in Business Central overview](ai/mcp-overview.md)
 ### [Configure Business Central MCP Server](ai/configure-mcp-server.md)
+### [AL MCP Server](developer/al-agent-tools/al-mcp-server.md)
 ### [Connect to MCP server with Copilot Studio](ai/create-agent-in-copilot-studio.md#create-agents-that-connect-to-business-central-mcp-server)
 ### [Connect to MCP server with Visual Studio Code](ai/use-mcp-server-in-vscode.md)
 ### [Connect to MCP server with non-Microsoft clients](ai/use-mcp-server-non-microsoft.md)
