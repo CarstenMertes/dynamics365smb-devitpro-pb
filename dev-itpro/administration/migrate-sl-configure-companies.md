@@ -5,7 +5,7 @@ author: lcontreras
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 07/16/2025
+ms.date: 04/10/2026
 ms.custom: bap-template
 ---
 # Configure Dynamics SL company migration
@@ -40,7 +40,7 @@ The steps in this section configure the data migration globally for all companie
 
 1. **Set the dimensions**.
 
-   To assign default dimensions for the companies you're migrating, select the **Dimension 1** and **Dimension 2** values in the **Per Company** section for each company. Set the dimensions manually for these companies. **Dimension 1** and **Dimension 2** are selected from the Dynamics SL subaccount segments you want to use as the global dimensions in Business Central. The remaining segments are automatically set up as shortcut dimensions.  [Learn more about Dimensions](/dynamics365/business-central/finance-dimensions).
+   To assign default dimensions for the companies you're migrating, select the **Dimension 1** and **Dimension 2** values in the **Per Company** section for each company. Set the dimensions manually for these companies. **Dimension 1** and **Dimension 2** are selected from the Dynamics SL subaccount segments you want to use as the global dimensions in Business Central. The remaining segments are automatically set up as shortcut dimensions. [Learn more about Dimensions](/dynamics365/business-central/finance-dimensions).
 
 1. **Modules**: Choose the modules to migrate.
 
@@ -64,9 +64,9 @@ The steps in this section configure the data migration globally for all companie
 
    In the **Inactive records** section, specify the inactive records or discontinued items that you want to migrate. By default, no inactive records or discontinued items are migrated. For example, to migrate inactive customers, turn on the **Inactive Customers** switch.
 
-1. **Classes**: Select which SL classes to migrate as posting groups in D365 Business Central. You can migrate Vendor Classes (to **Vendor Posting Groups**), Customer Classes (to **Customer Posting Groups**), and Product Classes (to **Product Posting Groups**).
+1. **Classes**: Select which SL classes to migrate as posting groups in Business Central. You can migrate Vendor Classes (to **Vendor Posting Groups**), Customer Classes (to **Customer Posting Groups**), and Product Classes (to **Product Posting Groups**).
 
-1. **Vendor 1099 Information**:  For the selected year, Vendor 1099 amounts are totaled by vendor and box, then vendor invoices are created and posted in D365 Business Central for each total with the correct 1099 box indicated. Each invoice and its corresponding payment are posted using the vendor’s posting group AP account, creating wash transactions that do not impact GL balances
+1. **Vendor 1099 Information**:  For the selected year, Vendor 1099 amounts are totaled by vendor and box, then vendor invoices are created and posted in Business Central for each total with the correct 1099 box indicated. Each invoice and its corresponding payment are posted using the vendor’s posting group AP account, creating wash transactions that don't impact GL balances
 
 1. **Historical Snapshots**: Choose the historical transactions that you want to migrate.
 
