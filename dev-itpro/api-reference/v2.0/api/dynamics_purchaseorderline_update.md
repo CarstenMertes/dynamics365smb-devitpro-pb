@@ -50,8 +50,8 @@ Here's an example of the request.
 PATCH https://{businesscentralPrefix}/api/v2.0/companies({id})/purchaseOrderLines({purchaseOrderLineId})
 Content-type: application/json
 {
-    "id" : "1e8cb9c0-44e3-ea11-bb43-000d3a2feca1",
-    "documentId" : "960f5c9c-44e3-ea11-bb43-000d3a2feca1"
+    "id" : "aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb",
+    "documentId" : "bbbbbbbb-1111-2222-3333-cccccccccccc"
 }
 ```
 
@@ -62,15 +62,15 @@ Here's an example of the response.
 HTTP/1.1 200 OK
 Content-type: application/json
 {
-    "id": "1e8cb9c0-44e3-ea11-bb43-000d3a2feca1",
-    "documentId": "960f5c9c-44e3-ea11-bb43-000d3a2feca1",
+    "id": "aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb",
+    "documentId": "bbbbbbbb-1111-2222-3333-cccccccccccc",
     "sequence": 10000,
-    "itemId": "0ea6738a-44e3-ea11-bb43-000d3a2feca1",
+    "itemId": "cccccccc-2222-3333-4444-dddddddddddd",
     "accountId": "93f5638a-55e3-jk22-aa32-211d3a2fdce5",
     "lineType": "Item",
     "lineObjectNumber": "1996-S",
     "description": "ATLANTA Whiteboard, base",
-    "unitOfMeasureId": "5ca6738a-44e3-ea11-bb43-000d3a2feca1",
+    "unitOfMeasureId": "dddddddd-3333-4444-5555-eeeeeeeeeeee",
     "unitOfMeasureCode": "PCS",
     "quantity": 12,
     "directUnitCost": 1397.3,

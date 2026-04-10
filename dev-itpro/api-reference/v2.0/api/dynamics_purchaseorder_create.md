@@ -73,7 +73,7 @@ Content-type: application/json
    "currencyId": "00000000-0000-0000-0000-000000000000",
    "currencyCode": "USD",
    "pricesIncludeTax": false,
-   "paymentTermsId": "04a5738a-44e3-ea11-bb43-000d3a2feca1",
+   "paymentTermsId": "eeeeeeee-4444-5555-6666-ffffffffffff",
    "shipmentMethodId": "93f5638a-55e3-jk22-aa32-211d3a2fdce5",
    "purchaser": "First Up Consultants",
    "requestedReceiptDate": "2021-01-01",
@@ -89,7 +89,7 @@ Here's an example of the response.
 HTTP/1.1 201 Created
 Content-type: application/json
 {
-   "id": "5d115c9c-44e3-ea11-bb43-000d3a2feca1",
+   "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
    "number": "108001",
    "orderDate": "2021-01-01",
    "postingDate": "2021-01-01",
@@ -123,7 +123,7 @@ Content-type: application/json
    "currencyId": "00000000-0000-0000-0000-000000000000",
    "currencyCode": "USD",
    "pricesIncludeTax": false,
-   "paymentTermsId": "04a5738a-44e3-ea11-bb43-000d3a2feca1",
+   "paymentTermsId": "eeeeeeee-4444-5555-6666-ffffffffffff",
    "shipmentMethodId": "93f5638a-55e3-jk22-aa32-211d3a2fdce5",
    "purchaser": "First Up Consultants",
    "requestedReceiptDate": "2021-01-01",
