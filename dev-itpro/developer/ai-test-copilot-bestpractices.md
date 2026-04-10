@@ -31,11 +31,11 @@ Unlike deterministic systems, LLM-based features require new testing approaches.
 
 To evaluate Copilot performance broadly:
 
-- Use the **AI Test Tool** to automate testing and verify thousands of prompts automatically.
+- Use **Evaluation** to automate testing and verify thousands of prompts automatically.
 - Score outputs for **correctness**, **relevance**, and **completeness**.  
 - Flag low-confidence responses for human review.
 
-The AI Test Toolkit allows automating AI Testing at scale.
+Evaluation allows automating AI testing at scale.
 
 ### Create realistic test cases
 
@@ -67,7 +67,7 @@ Test to ensure your Copilot:
   - Gracefully manages nonsense or confusing queries.  
 
 > [!TIP]  
-> Integrate both quality and safety tests into your CI/CD pipeline using the AI Test Toolkit.
+> Integrate both quality and safety tests into your CI/CD pipeline using Evaluation.
 
 ### Test for cross-language compatibility
 
@@ -101,9 +101,9 @@ Maintain historical baselines for consistency across releases.
 
 ## Related information
 
-[Business Central Copilot Test Toolkit](https://github.com/microsoft/BCApps/blob/main/src/Tools/AI%20Test%20Toolkit/README.md)  
+[Business Central Copilot Evaluation](https://github.com/microsoft/BCApps/blob/main/src/Tools/AI%20Test%20Toolkit/README.md)  
 [Build the Copilot capability in AL](ai-build-capability-in-al.md)  
 [Test the Copilot capability in AL](ai-test-copilot.md)  
 [Create datasets](ai-test-copilot-datasets.md)  
 [Write AI tests](ai-test-copilot-ai-tests.md)  
-[AI test tool](ai-test-copilot-testtool.md)
+[Evaluation](ai-test-copilot-testtool.md)

@@ -49,8 +49,8 @@ alc.exe help
 
 | Command                        | Description                                           |
 |--------------------------------|-------------------------------------------------------|
-| `compile`                      | Compile a package using `alc.exe`. Learn more in [Workspace compilation](#workspace-compilation). |
-| `workspace`                    | Workspace-related commands.  |
+| `compile`                      | Compile a package using `alc.exe`. Learn more in [Workspace commands](#workspace-commands). |
+| `workspace`                    | Workspace commands for creating, compiling, and mapping multi-project AL workspaces. Learn more in [Workspace commands](#workspace-commands). |
 | `launchmcpserver`              | Launches an AL Model Context Protocol (MCP) server.  |
 | `GetPackageManifest`           | Retrieve the manifest from a `.app` file.            |
 | `CreateSymbolPackage`          | Create a symbol-only package from a `.app` file.     |
@@ -58,17 +58,29 @@ alc.exe help
 | `help`                         | Display detailed information about a specific command. |
 | `version`                      | Display version information.                         |
 
-## Workspace compilation
+## Workspace commands
 
 [!INCLUDE [2026-releasewave1-later](../includes/2026-releasewave1-later.md)]
 
-ALTool supports compiling all projects in a Visual Studio Code workspace in the correct dependency order. The command takes a `.code-workspace` file and compiles each project by invoking `alc`, automatically resolving inter-project dependencies and parallelizing compilations where possible.
+ALTool includes a set of workspace commands for working with multi-project AL workspaces. The recommended way to install the tool is via the Business Central Development Tools NuGet package, which is a .NET tool that provides the `al` command:
 
 ```bash
-altool workspace compile my.code-workspace
+dotnet tool install --global Microsoft.Dynamics.BusinessCentral.Development.Tools
 ```
 
-If the tool is installed from the [Business Central Development Tools NuGet package](https://www.nuget.org/packages/Microsoft.Dynamics.BusinessCentral.Development.Tools) the command can be invoked with the `al` command that acts as a convenient alias for ALTool.
+### workspace create
+
+Creates a `.code-workspace` file by recursively searching one or more folders for AL projects (folders containing `app.json`). Each discovered project is added to the workspace with its name read from the manifest.
+
+```bash
+al workspace create my.code-workspace ./src
+```
+
+When the specified folders are themselves AL projects, only those folders are included. Otherwise, the command searches subdirectories recursively and excludes nested projects that fall under another project root.
+
+### workspace compile
+
+Compiles all projects in a workspace in the correct dependency order. The command reads each project's manifest to build a dependency graph, then parallelizes compilations where possible.
 
 ```bash
 al workspace compile my.code-workspace
@@ -90,6 +102,21 @@ The following options are available:
 | `--sourcecommit` | Source commit ID for the workspace. |
 | `--loglevel` | Logging level. |
 | `--logdirectory` | Directory to store compilation log files. |
+
+### workspace map
+
+Generates a Markdown file with a Mermaid dependency diagram from a workspace. The output includes a visual graph of inter-project dependencies, a project details table, and warnings for any circular dependencies detected.
+
+```bash
+al workspace map my.code-workspace
+al workspace map my.code-workspace output.md
+```
+
+## Symbol-only and runtime package detection
+
+[!INCLUDE [2026-releasewave1-later](../includes/2026-releasewave1-later.md)]
+
+ALTool now supports detecting whether an app is symbol-only and whether a package is a runtime package. These checks help tools like AL-Go determine if an extension can be published to SaaS or containers.
 
 ## ALMCP
 

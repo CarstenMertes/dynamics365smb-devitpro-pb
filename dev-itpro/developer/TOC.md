@@ -1221,6 +1221,20 @@
 #### [AW0017](analyzers/uicop-aw0017.md)
 <!-- [//]: # (IMPORTANT: END>DO_NOT_EDIT_ANALYZERS) -->
 
+## AI Agent tools
+### [AI Agent tools for AL development](al-agent-tools/al-agent-tools-overview.md)
+### [AL Language Model tools for Visual Studio Code](al-agent-tools/al-language-model-tools-vscode.md)
+### [AL MCP server](al-agent-tools/al-mcp-server.md)
+### [Authentication](al-agent-tools/al-tool-auth.md)
+### [Build AL project](al-agent-tools/al-tool-build.md)
+### [Compile AL project](al-agent-tools/al-tool-compile.md)
+### [Debugging](al-agent-tools/al-tool-debug.md)
+### [Download AL symbols](al-agent-tools/al-tool-download-symbols.md)
+### [Get AL diagnostics](al-agent-tools/al-tool-get-diagnostics.md)
+### [Get package dependencies](al-agent-tools/al-tool-get-package-dependencies.md)
+### [Publish AL extension](al-agent-tools/al-tool-publish.md)
+### [Search AL symbols](al-agent-tools/al-tool-symbol-search.md)
+
 ## Data Types and Methods
 ### [Methods Overview](methods-auto/library.md)
 ### [Array Methods](methods/devenv-array-methods.md)

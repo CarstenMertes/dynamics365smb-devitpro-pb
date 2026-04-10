@@ -26,20 +26,20 @@ Testing helps ensure that Copilot features:
 
 Without proper validation, AI-generated outputs can lead to user frustration, compliance risks, and brand damage.
 
-## Permission set prerequisite for the AI Test Tool
+## Permission set prerequisite for Evaluation
 
-To use the AI Test Tool, users must have the **AI TEST TOOLKIT** permission set assigned. This permission set provides access to the necessary pages and actions to create and run AI tests.
+To use Evaluation, users must have the **AI TEST TOOLKIT** permission set assigned. This permission set provides access to the necessary pages and actions to create and run AI tests.
 
-## Overview of the AI Test Tool
+## Overview of Evaluation
 
-In the next articles, we’ll explore how to test Copilot features in Business Central using the AI Test Tool. This tool allows you to create and run tests that validate the accuracy, safety, and reliability of your Copilot features.
+In the next articles, we explore how to test Copilot features in Business Central using Evaluation (formerly the AI Test Toolkit). Evaluation allows you to create and run tests that validate the accuracy, safety, and reliability of your Copilot features. It also supports suite-level configuration, multilingual test execution, Copilot credit visibility, and Business Central agent evaluation scenarios.
 
 - [Create datasets](ai-test-copilot-datasets.md)  
 - [Write AI tests](ai-test-copilot-ai-tests.md)  
-- [AI Test Tool](ai-test-copilot-testtool.md)  
+- [Evaluation](ai-test-copilot-testtool.md)  
 - [Best practices for testing the Copilot capability](ai-test-copilot-bestpractices.md)  
 
 ## Related information
 
-[Business Central Copilot Test Toolkit](https://github.com/microsoft/BCApps/blob/main/src/Tools/AI%20Test%20Toolkit/README.md)  
+[Business Central Copilot Evaluation](https://github.com/microsoft/BCApps/blob/main/src/Tools/AI%20Test%20Toolkit/README.md)  
 [Build the Copilot capability in AL](ai-build-capability-in-al.md)  
