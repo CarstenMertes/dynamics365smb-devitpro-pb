@@ -9,6 +9,7 @@ author: jswymer
 ms.custom: 
     - bap-template
 ---
+
 # Update 28.0 for Business Central 2026 release wave 1
 
 This article provides an overview of the new and updated features and general information about update 28.0, which starts 2026 release wave 1.
