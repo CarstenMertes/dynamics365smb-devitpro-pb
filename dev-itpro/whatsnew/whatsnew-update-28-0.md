@@ -100,9 +100,10 @@ This section outlines changes to feature and feature updates controlled by **Fea
 
 ## On-premises download packages
 
-> [!IMPORTANT]
+> [!NOTE]
 > An issue was identified where emails sent via the SMTP connector were delivered without attachments. No data was lost&mdash;attachments remain stored in Business Central and linked to the original emails, which can be resent if needed. Download packages are temporarily suspended until builds with the fix are available.
 
+<!--
 Select and download the package for the appropriate country/region version from Microsoft Support.
 
 |Country/region|Download package|
@@ -130,6 +131,8 @@ Select and download the package for the appropriate country/region version from 
 |SE - Sweden|[Dynamics.365.BC.48549.SE.DVD.zip](https://download.microsoft.com/download/c9349b3d-84fd-4566-be6d-8149ceb6b583/Dynamics.365.BC.48549.SE.DVD.zip)|
 |US - United States|[Dynamics.365.BC.48549.US.DVD.zip](https://download.microsoft.com/download/c9349b3d-84fd-4566-be6d-8149ceb6b583/Dynamics.365.BC.48549.US.DVD.zip)|
 |All other countries/regions (W1)|[Dynamics.365.BC.48549.W1.DVD.zip](https://download.microsoft.com/download/c9349b3d-84fd-4566-be6d-8149ceb6b583/Dynamics.365.BC.48549.W1.DVD.zip)|
+
+-->
 
 ## Upgrade to 28.0
 
