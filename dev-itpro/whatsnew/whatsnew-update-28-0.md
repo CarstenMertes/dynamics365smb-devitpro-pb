@@ -11,12 +11,7 @@ ms.custom:
 ---
 # Update 28.0 for Business Central 2026 release wave 1
 
-
-
 This article provides an overview of the new and updated features and general information about update 28.0, which starts 2026 release wave 1.
-
-> [!IMPORTANT]
-> An issue was identified where emails sent via the SMTP connector are delivered without attachments. No data was lost&mdash;attachments remain stored in Business Central and linked to the original emails, which can be resent if needed. Online updates and on‑premises download packages are temporarily paused until builds with the fix are available.
 
 ## New and updated features
 
@@ -106,7 +101,7 @@ This section outlines changes to feature and feature updates controlled by **Fea
 ## On-premises download packages
 
 > [!IMPORTANT]
-> Download packages have been temporarily suspended until new builds are available that address the SMTP connector attachment issue.
+> An issue was identified where emails sent via the SMTP connector were delivered without attachments. No data was lost&mdash;attachments remain stored in Business Central and linked to the original emails, which can be resent if needed. Download packages are temporarily suspended until builds with the fix are available.
 
 Select and download the package for the appropriate country/region version from Microsoft Support.
 
