@@ -101,9 +101,6 @@ This section outlines changes to feature and feature updates controlled by **Fea
 
 ## On-premises download packages
 
-> [!NOTE]
-> An issue was identified where emails sent via the SMTP connector were delivered without attachments. No data was lost&mdash;attachments remain stored in Business Central and linked to the original emails, which can be resent if needed. Download packages are temporarily suspended until builds with the fix are available.
-
 Select and download the package for the appropriate country/region version from Microsoft Support.
 
 |Country/region|Download package|
